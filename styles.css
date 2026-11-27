@@ -97,7 +97,7 @@ section.s { padding: 55px 0; border-top: 1px solid var(--line); }
 /* ---------- Hero and definitions ---------- */
 .hero { padding: 89px 0 55px; position: relative; }
 .hero h1 { text-wrap: balance; }
-.hero h1 { font-size: 56px; line-height: 66px; letter-spacing: -.005em; margin-top: 13px; max-width: 780px; }
+.hero h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1.18px; letter-spacing: -.005em; margin-top: 13px; }
 .term { font: inherit; color: inherit; letter-spacing: inherit; background: none; border: 0; padding: 0; margin: 0; }
 .js .term { cursor: pointer; text-decoration: underline dotted var(--teal); text-decoration-thickness: 2px; text-underline-offset: .2em; }
 .js .term:hover, .js .term[aria-expanded="true"] { text-decoration-style: solid; }
@@ -197,7 +197,6 @@ svg.orn { display: none; position: absolute; right: -270px; top: 34px; width: 17
   .nav a.in { margin-right: 24px; }
   .mk .wm { display: none; }
   .hero { padding: 55px 0 34px; }
-  .hero h1 { font-size: 34px; line-height: 42px; }
   .defs { margin-top: 21px; }
   section.s { padding: 40px 0; }
   h2 { font-size: 34px; line-height: 42px; }
