@@ -76,6 +76,7 @@ img { max-width: 100%; }
 .skip:focus { left: 8px; }
 .eyebrow { font-size: 13px; line-height: 21px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
 .only-m { display: none; }
+.nowrap { white-space: nowrap; }
 section.s { padding: 55px 0; border-top: 1px solid var(--line); }
 #work { border-top: 0; padding-top: 34px; }
 #follow { border-top: 0; padding-top: 89px; }
@@ -95,6 +96,7 @@ section.s { padding: 55px 0; border-top: 1px solid var(--line); }
 
 /* ---------- Hero and definitions ---------- */
 .hero { padding: 89px 0 55px; position: relative; }
+.hero h1 { text-wrap: balance; }
 .hero h1 { font-size: 56px; line-height: 66px; letter-spacing: -.005em; margin-top: 13px; max-width: 780px; }
 .term { font: inherit; color: inherit; letter-spacing: inherit; background: none; border: 0; padding: 0; margin: 0; }
 .js .term { cursor: pointer; text-decoration: underline dotted var(--teal); text-decoration-thickness: 2px; text-underline-offset: .2em; }
