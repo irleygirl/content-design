@@ -222,7 +222,7 @@ svg.div { display: block; width: 100%; height: auto; }
 .framed.lilycard { position: relative; border-radius: 8px 34px 8px 34px; min-height: 190px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 34px 34px 34px 110px; }
 .lilycard .vine { position: absolute; left: 30px; bottom: 10px; height: calc(100% - 20px); width: auto; pointer-events: none; }
 .lilycard .soon { position: relative; }
-.mono text { font-family: var(--font-accent); }
+.mono .ml { fill: var(--gold); }
 @media (max-width: 640px) {
   .framed.capsule { border-radius: 55px; }
   .fcard.capsule { padding: 34px 34px; }
